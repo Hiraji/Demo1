@@ -1,0 +1,5 @@
+deployment:
+  push_to_server:
+    branch: master
+    commands:
+      - rsync -avz Demo1/ hiraji@45.32.247.7:/var/www/
